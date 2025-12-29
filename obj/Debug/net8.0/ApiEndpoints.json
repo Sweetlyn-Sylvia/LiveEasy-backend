@@ -1,0 +1,632 @@
+[
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.AgentController",
+    "Method": "GetAllAgents",
+    "RelativePath": "api/Agent/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.AgentController",
+    "Method": "GetDashboardData",
+    "RelativePath": "api/Agent/dashboard/{agentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.AgentController",
+    "Method": "DeleteAgent",
+    "RelativePath": "api/Agent/delete/{agentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.AgentController",
+    "Method": "Login",
+    "RelativePath": "api/Agent/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginData",
+        "Type": "ParcelTrackingSystem.Models.AgentLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.AgentController",
+    "Method": "GetAgentPerformance",
+    "RelativePath": "api/Agent/performance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.AgentController",
+    "Method": "GetPerformanceBadge",
+    "RelativePath": "api/Agent/performance-badge/{agentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.AgentController",
+    "Method": "GetAgentProfile",
+    "RelativePath": "api/Agent/profile/{agentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.AgentController",
+    "Method": "SignUp",
+    "RelativePath": "api/Agent/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signupData",
+        "Type": "ParcelTrackingSystem.Models.AgentSignUp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.AgentController",
+    "Method": "UpdateAgentProfile",
+    "RelativePath": "api/Agent/update-profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateData",
+        "Type": "ParcelTrackingSystem.Models.AgentProfileUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.AgentBotController",
+    "Method": "ChatWithBot",
+    "RelativePath": "api/AgentBot/chat/{agentId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ParcelTrackingSystem.Controllers.GeminiChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.LeaveController",
+    "Method": "GetAgentLeaves",
+    "RelativePath": "api/Leave/agent/{agentID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.LeaveController",
+    "Method": "GetAllLeaves",
+    "RelativePath": "api/Leave/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.LeaveController",
+    "Method": "ApplyLeave",
+    "RelativePath": "api/Leave/apply",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leave",
+        "Type": "ParcelTrackingSystem.Models.LeaveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.LeaveController",
+    "Method": "GetPendingLeaveCount",
+    "RelativePath": "api/Leave/pending-count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.LeaveController",
+    "Method": "UpdateLeaveStatus",
+    "RelativePath": "api/Leave/update-status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leaveID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.ParcelCreationController",
+    "Method": "GetParcelById",
+    "RelativePath": "api/ParcelCreation/{parcelID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parcelID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.ParcelCreationController",
+    "Method": "AddParcel",
+    "RelativePath": "api/ParcelCreation/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parcelData",
+        "Type": "ParcelTrackingSystem.Models.ParcelCreation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.ParcelCreationController",
+    "Method": "GetAllParcels",
+    "RelativePath": "api/ParcelCreation/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.ParcelCreationController",
+    "Method": "GetParcels",
+    "RelativePath": "api/ParcelCreation/getparcels/{agentID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.ParcelCreationController",
+    "Method": "GetParcels",
+    "RelativePath": "api/ParcelCreation/manage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "agentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.ParcelCreationController",
+    "Method": "GetPendingParcels",
+    "RelativePath": "api/ParcelCreation/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.ParcelCreationController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/ParcelCreation/update-status/{parcelID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parcelID",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ParcelTrackingSystem.Controllers.ParcelCreationController\u002BStatusUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.ReportsController",
+    "Method": "GetReportPdf",
+    "RelativePath": "api/Reports/pdf/{type}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.ReportsController",
+    "Method": "GetAgentReport",
+    "RelativePath": "api/Reports/pdf/agent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.ReportsController",
+    "Method": "GetAgentRangeReport",
+    "RelativePath": "api/Reports/pdf/agent/range",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.ReportsController",
+    "Method": "GetEarningsReport",
+    "RelativePath": "api/Reports/pdf/earnings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.ReportsController",
+    "Method": "GetRangeReport",
+    "RelativePath": "api/Reports/pdf/range",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.RouteController",
+    "Method": "GetSmartRoute",
+    "RelativePath": "api/Route/smart-route/{agentID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.SupervisiorController",
+    "Method": "GetProfile",
+    "RelativePath": "api/Supervisior/{supervisorID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supervisorID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.SupervisiorController",
+    "Method": "GetAllAgents",
+    "RelativePath": "api/Supervisior/agents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.SupervisiorController",
+    "Method": "AssignAgent",
+    "RelativePath": "api/Supervisior/assign-agent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "ParcelTrackingSystem.Controllers.SupervisiorController\u002BReminderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.SupervisiorController",
+    "Method": "GetDashboardSummary",
+    "RelativePath": "api/Supervisior/dashboard-summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.SupervisiorController",
+    "Method": "Login",
+    "RelativePath": "api/Supervisior/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginData",
+        "Type": "ParcelTrackingSystem.Models.Supervisor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.SupervisiorController",
+    "Method": "GetNotifications",
+    "RelativePath": "api/Supervisior/notifications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.SupervisiorController",
+    "Method": "SendReminder",
+    "RelativePath": "api/Supervisior/send-reminder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "ParcelTrackingSystem.Controllers.SupervisiorController\u002BReminderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.SupervisiorController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Supervisior/update-profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ParcelTrackingSystem.Models.ChangePassword",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.SupervisorBotController",
+    "Method": "Chat",
+    "RelativePath": "api/SupervisorBot/chat/{supervisorId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supervisorId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ParcelTrackingSystem.Controllers.BotRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.SupervisorParcelController",
+    "Method": "GetParcelById",
+    "RelativePath": "api/SupervisorParcel/{parcelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parcelId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParcelTrackingSystem.Controllers.SupervisorParcelController",
+    "Method": "GetParcels",
+    "RelativePath": "api/SupervisorParcel/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "agentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "deliveryDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
