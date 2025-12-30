@@ -5441,11 +5441,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sweet\\OneDrive\\Desktop\\Novacis training\\Project\\ParcelTracking\\ParcelTrackingSystem\\ParcelTrackingSystem.csproj",
+      "projectUniqueName": "C:\\Users\\sweet\\OneDrive\\Desktop\\Novacis training\\Project\\Deployment\\ParcelTrackingSystem\\ParcelTrackingSystem.csproj",
       "projectName": "ParcelTrackingSystem",
-      "projectPath": "C:\\Users\\sweet\\OneDrive\\Desktop\\Novacis training\\Project\\ParcelTracking\\ParcelTrackingSystem\\ParcelTrackingSystem.csproj",
+      "projectPath": "C:\\Users\\sweet\\OneDrive\\Desktop\\Novacis training\\Project\\Deployment\\ParcelTrackingSystem\\ParcelTrackingSystem.csproj",
       "packagesPath": "C:\\Users\\sweet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sweet\\OneDrive\\Desktop\\Novacis training\\Project\\ParcelTracking\\ParcelTrackingSystem\\obj\\",
+      "outputPath": "C:\\Users\\sweet\\OneDrive\\Desktop\\Novacis training\\Project\\Deployment\\ParcelTrackingSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

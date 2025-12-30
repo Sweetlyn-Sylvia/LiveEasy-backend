@@ -178,3 +178,15 @@ C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\ParcelTracking\ParcelTr
 C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\ParcelTracking\ParcelTrackingSystem\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll
 C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\ParcelTracking\ParcelTrackingSystem\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\ParcelTracking\ParcelTrackingSystem\bin\Debug\net8.0\ParcelTrackingSystem.staticwebassets.runtime.json
+C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\Deployment\ParcelTrackingSystem\obj\Debug\net8.0\ParcelTrackingSystem.csproj.AssemblyReference.cache
+C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\Deployment\ParcelTrackingSystem\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\Deployment\ParcelTrackingSystem\obj\Debug\net8.0\ParcelTrackingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\Deployment\ParcelTrackingSystem\obj\Debug\net8.0\ParcelTrackingSystem.AssemblyInfoInputs.cache
+C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\Deployment\ParcelTrackingSystem\obj\Debug\net8.0\ParcelTrackingSystem.AssemblyInfo.cs
+C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\Deployment\ParcelTrackingSystem\obj\Debug\net8.0\ParcelTrackingSystem.csproj.CoreCompileInputs.cache
+C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\Deployment\ParcelTrackingSystem\obj\Debug\net8.0\ParcelTrackingSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\Deployment\ParcelTrackingSystem\obj\Debug\net8.0\ParcelTrackingSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\Deployment\ParcelTrackingSystem\obj\Debug\net8.0\ParcelTrackingSystem.sourcelink.json
+C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\Deployment\ParcelTrackingSystem\obj\Debug\net8.0\ParcelTrackingSystem.dll
+C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\Deployment\ParcelTrackingSystem\obj\Debug\net8.0\refint\ParcelTrackingSystem.dll
+C:\Users\sweet\OneDrive\Desktop\Novacis training\Project\Deployment\ParcelTrackingSystem\obj\Debug\net8.0\ParcelTrackingSystem.pdb

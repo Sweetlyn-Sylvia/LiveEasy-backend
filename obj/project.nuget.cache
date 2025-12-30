@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D+N5YO9/Hy0=",
+  "dgSpecHash": "OCjFIy185h0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sweet\\OneDrive\\Desktop\\Novacis training\\Project\\ParcelTracking\\ParcelTrackingSystem\\ParcelTrackingSystem.csproj",
+  "projectFilePath": "C:\\Users\\sweet\\OneDrive\\Desktop\\Novacis training\\Project\\Deployment\\ParcelTrackingSystem\\ParcelTrackingSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sweet\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\sweet\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
